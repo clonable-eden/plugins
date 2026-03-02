@@ -1,0 +1,30 @@
+{
+  "name": "clonable-eden-plugins",
+  "owner": {
+    "name": "clonable-eden"
+  },
+  "metadata": {
+    "description": "Experimental plugins for artificial intelligence agents by clonable-eden."
+  },
+  "plugins": [
+    {
+      "name": "cekernel",
+      "source": {
+        "source": "github",
+        "repo": "clonable-eden/cekernel"
+      },
+      "description": "Parallel agent infrastructure for Claude Code. Modeled after the OS process model, it distributes, monitors, and reaps issues via independent Workers.",
+      "author": {
+        "name": "clonable-eden"
+      },
+      "keywords": [
+        "parallel",
+        "worktree",
+        "orchestrator",
+        "worker",
+        "ipc"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
