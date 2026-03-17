@@ -12,7 +12,7 @@
       "source": {
         "source": "github",
         "repo": "clonable-eden/cekernel",
-        "ref": "cekernel-v1.7.1"
+        "ref": "cekernel-v1.8.0"
       },
       "description": "Parallel agent infrastructure for Claude Code. Modeled after the OS process model, it distributes, monitors, and reaps issues via independent Workers.",
       "author": {
